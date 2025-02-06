@@ -1,34 +1,35 @@
-    <div>
-        <img src =  "img/1.jpeg" alt = "">
-        <img src =  "img/2.jpeg" alt = "">
-        <img src =  "img/3.jpeg" alt = "">
-        <img src =  "img/4.jpeg" alt = "">
-        <img src =  "img/5.jpeg" alt = "">
-        <img src =  "img/6.jpeg" alt = "">
-        <img src =  "img/unknown_time.jpeg" alt = "">
-        <img src =  "img/1.jpeg" alt = "">
-    </div>
-    <style>
-        div{
-            background-color: #b8b8aa;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;}
-        div img{
-            width: 400px;
-            height: 300px;
-            border: 3px solid #000000;
-            border-radius: 20px;
-            box-shadow: 4px 7px 7px 0px #000000;
-        cursor: pointer;
-            margin: 10px;
-            transition: 500ms;}
-        div img:hover{
-            filter: grayscale(1);
-            transform: scale(1.1);
+<div>
+   <img src =  "img/1.jpeg" alt = "">
+   <img src =  "img/2.jpeg" alt = "">
+   <img src =  "img/3.jpeg" alt = "">
+   <img src =  "img/4.jpeg" alt = "">
+   <img src =  "img/5.jpeg" alt = "">
+   <img src =  "img/sunset.jpeg" alt = "">
+   <img src =  "img/unknown_time.jpeg" alt = "">
+   <img src =  "img/wave.jpeg" alt = "">
+</div>
+<style>
+   div{
+       background-color: #b8b8aa;
+       background-image: url("img/abc.jpeg");
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;}
+   div img{
+       width: 400px;
+       height: 300px;
+       border: 3px solid #000000;
+       border-radius: 20px;
+       box-shadow: 4px 7px 12px 0px #000000;
+       cursor: pointer;
+       margin: 10px;
+       transition: 500ms;}
+   div img:hover{
+       z-index: 10;
+       transform: scale(1.4);
+        filter: grayscale(0.5));
+       }
 
-        }
 
-
-    </style>
+</style>
