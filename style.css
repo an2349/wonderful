@@ -69,12 +69,14 @@ body {
 
 .text-center {
   text-align: center;
+  
 }
 
 .section-heading {
-  font-size: 3rem;
+    font-size: 3rem;
   color: var(--primary);
   padding: 2rem 0;
+       
 }
 
 #tranding {
