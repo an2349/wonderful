@@ -1,0 +1,7 @@
+Xây dựng ứng dụng chat dạng client-server với các chức năng sau:
+- Tối thiểu: đăng nhập, đăng ký, lấy danh sách user đang online, gửi và nhận tin nhắn
+với một user khác
+- Nâng cao: danh sách bạn bè, chat nhóm
+Các công nghệ sử dụng:
+- Client: Angular, HTML+JS, Android, Java SE
+- Server: Spring Framework: MVC, JPA, JAX-RS, WebSocket, MySQL
